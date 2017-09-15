@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">FakeMarket</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_gift_ideas">Gift ideas</string>
+    <string name="main_commandments">Commandments</string>
+    <string name="main_location">Location and information</string>
+    <string name="main_basic_chinese">bargaining vocabulary</string>
+    <string name="title_activity_price_list">PriceList</string>
+    <string name="title_activity_gift_ideas">GiftIdeas</string>
+    <string name="title_activity_convert_currency">ConvertCurrency</string>
+    <string name="title_activity_vocabulary">Vocabulary</string>
+    <string name="title_activity_locations">Locations</string>
+
+    <string name="item_adapter_category_clothes">clothes</string>
+    <string name="item_adapter_category_electronics">Electronics</string>
+    <string name="item_adapter_category_others">Others</string>
+
+    <string name="location_activity_open_google_map">Click on the map to open Google map (Require a VPN)</string>
+
+<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCtqq-mODFv1Og_L6b5i-VFFnwU2CNdzBo
+    </string>
+
+    <string name="main_price_list">Price list</string>
+
+    <string name="main_convert_currency">convert currency</string>
+    <string name="convert_currency_too_expensive">expensive!</string>
+
+    <string name="location_theme_electronic">electronics</string>
+    <string name="location_theme_clothes">clothes</string>
+    <string name="location_theme_souvenirs">souvenirs</string>
+    <string name="location_theme_made_to_measure">made to measure</string>
+    <string name="location_theme_tea">tea</string>
+
+
+    <string name="title_activity_commandments">Commandments</string>
+    <string name="commandments_1">Only cash payments are accepted, some sellers may accept dollars or euros.</string>
+    <string name="commandments_2">Never accept the first price the seller is telling you.</string>
+    <string name="commandments_3">No matter what the seller is telling you, everything is fake.</string>
+    <string name="commandments_4">Sellers are professionals skilled at manipulating emotions, don’t get duped.</string>
+    <string name="commandments_5">Before you buy a garment, check for sewing defects.</string>
+    <string name="commandments_6">Before you buy an electronic device, ask to unpack it and try it.</string>
+    <string name="commandments_7">Many shops are selling the same things, if your price isn’t accepted, try another shop with a price a little higher.</string>
+    <string name="commandments_8">Sellers can speak english, however, if you can use some chinese words and show that you are not only a tourist, you may get a better price.</string>
+    <string name="commandments_9">When a seller is telling you his « last price », it isn’t necessarily his last price.</string>
+    <string name="commandments_10">Be respectful and enjoy your time at the fake market</string>
+
+
+    <string name="voca_word1_hello">Hello</string>
+    <string name="voca_word2_how_much">How much is it ?</string>
+    <string name="voca_word3_expensive">expensive</string>
+    <string name="voca_word4_too_expensive">too expensive</string>
+    <string name="voca_word5_good_quality">good quality</string>
+    <string name="voca_word6_bad_quality">bad quality</string>
+    <string name="voca_word7_I_dont_have">I don\'t have enough money</string>
+    <string name="voca_word8_I_dont_want">I don\'t want it</string>
+    <string name="voca_word9_I_want_less">I want less expensive</string>
+    <string name="voca_word10_do_you_have_other">Do you have other sizes ?</string>
+    <string name="voca_word11_bigger">bigger</string>
+    <string name="voca_word12_smaller">smaller</string>
+    <string name="voca_word13_thank_you">Thank you</string>
+    <string name="voca_word14_goodbye">Goodbye</string>
+
+    <string name="custom_dialog_rating_title">Would you help me ?</string>
+    <string name="custom_dialog_rating_yes">Rate</string>
+    <string name="custom_dialog_rating_no">No !</string>
+    <string name="custom_dialog_rating_later">Later</string>
+    <string name="custom_dialog_rating_description">This free of advertising application is my school project, hopefully it will save you some time or money ! If you find it useful, could you rate it on the google play store ?</string>
+
+
+
+    <string name="item_1">t-shirt (basic)</string>
+    <string name="item_2">t-shirt (good)</string>
+    <string name="item_3">polo </string>
+    <string name="item_4">traditional dress</string>
+    <string name="item_5">hoodies </string>
+    <string name="item_6">trousers (jeans)</string>
+    <string name="item_7">trousers (dressed) </string>
+    <string name="item_8">shoes (basic converses) </string>
+    <string name="item_9">sport shoes </string>
+    <string name="item_10">dress shoes (good) </string>
+    <string name="item_11">uggs </string>
+    <string name="item_12">crocs </string>
+    <string name="item_13">socks </string>
+    <string name="item_14">underweare </string>
+    <string name="item_15">belt </string>
+    <string name="item_16">cap </string>
+    <string name="item_17">sport shirts </string>
+    <string name="item_18">scarf </string>
+    <string name="item_19">bags </string>
+    <string name="item_20">backpack bags </string>
+    <string name="item_21">suitcase (wheels) </string>
+    <string name="item_22">wallets </string>
+    <string name="item_23">coat </string>
+    <string name="item_24">ties </string>
+    <string name="item_25">purse </string>
+
+    <string name="item_26">Binoculars </string>
+    <string name="item_27">Kites </string>
+    <string name="item_28">E cigarette </string>
+    <string name="item_29">Cards </string>
+    <string name="item_30">Chinese knot </string>
+    <string name="item_31">Shots</string>
+    <string name="item_32">Set of chopsticks</string>
+    <string name="item_33">Tea-set </string>
+    <string name="item_34">Posters </string>
+    <string name="item_35">Chinese fan </string>
+    <string name="item_36">Key chain </string>
+    <string name="item_37">Notebook </string>
+    <string name="item_38">Pen </string>
+    <string name="item_39">Watch (basic)</string>
+    <string name="item_40">Watch (good)</string>
+
+    <string name="item_41">Dvd </string>
+    <string name="item_42">Software </string>
+    <string name="item_43">Games </string>
+    <string name="item_44">RC devices (small)</string>
+    <string name="item_45">RC devices (big)</string>
+    <string name="item_46">Charger (iPhone / android)</string>
+    <string name="item_47">Tablet cover  </string>
+    <string name="item_48">phone cover </string>
+    <string name="item_49">headphone</string>
+    <string name="item_50">speakers</string>
+    <string name="item_51">flashlight </string>
+    <string name="item_52">laser</string>
+    <string name="item_53">lighter </string>
+
+    <string name="fake_1_description">Formerly known as Fengshine Market, Han city may be the most famous fake market downtown. A lot of expats choose this fake market so sellers will be able to talk English and will try to sell you fakes items for astronomical prices. Be prepared to bargain hard and bring cash only. (ATM in the entrance)</string>
+    <string name="fake_2_description">The biggest fake market, inside the metro Science and Technology Museum station (line 2). Everything is fake there, you will need to bargain a lot and will probably have to walk away from a few stalls before getting the best price on what you are looking for. The market is huge, don’t get lost.</string>
+    <string name="fake_3_description">A lot of tailors and seamstresses in the famous “Fabric Market”, the prime destination for clothing garments.</string>
+    <string name="fake_4_description">A street full of malls with really cheap clothes including fakes for good measure. The street is pretty crowded so early weekday mornings are recommended.</string>
+    <string name="fake_5_description">Around Yuyuan garden you will find a lot of little shops selling everything from antiques, souvenirs, tea, clothes… Don’t forget to have a walk there, especially if you are visiting the garden. (Pretty crowded on weekends and golden week)</string>
+
+
+    <string name="emplacement_fake1">7 mins walk from Nanjing Rd (W)</string>
+    <string name="emplacement_fake2">Metro: Shanghai Science and Technology Museum (line 2)</string>
+    <string name="emplacement_fake3">5 mins walk from Nanpu Bridge</string>
+    <string name="emplacement_fake4">5 mins walk from Tiantong Rd </string>
+    <string name="emplacement_fake5">2 mins walk from Yu Garden </string>
+
+
+    <string name="horaires_fake1">Daily, 9am-9pm</string>
+    <string name="horaires_fake2">Daily, 9am-6pm</string>
+    <string name="horaires_fake3">Daily, 10am-10pm</string>
+    <string name="horaires_fake4">Daily, 9am-5.30pm</string>
+    <string name="horaires_fake5">Daily, 8.30am-5pm</string>
+
+    <string name="convert_currency_toast_no_internet">Internet connection is missing, rates not updated</string>
+    <string name="convert_currency_toast_succes">Rates updated</string>
+
+
+</resources>

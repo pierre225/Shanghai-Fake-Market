@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/main_ll_line1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/main_ll_cube1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#929292"
+                android:orientation="horizontal"
+                android:onClick="clickCommandments">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_commandments"/>
+
+                <TextView
+                    android:id="@+id/main_tv_cube1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_commandments"
+                    android:gravity="center"
+                    android:textSize="@dimen/main_text_size"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/main_ll_cube2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#0091FE"
+                android:orientation="horizontal"
+                android:onClick="clickLocation">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/marker"/>
+
+                <TextView
+                    android:id="@+id/main_tv_cube2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_location"
+                    android:textSize="@dimen/main_text_size"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_ll_line2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/main_ll_cube3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FF4342"
+                android:orientation="horizontal"
+                android:onClick="clickVocabulary">
+
+                <ImageView
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/talk"/>
+
+                <TextView
+                    android:id="@+id/main_tv_cube3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_basic_chinese"
+                    android:textSize="@dimen/main_text_size"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerInParent="true"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/main_ll_cube4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FEC200"
+                android:onClick="clickConverter">
+
+               <ImageView
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/convert"/>
+
+                <TextView
+                    android:id="@+id/main_tv_cube4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_convert_currency"
+                    android:textSize="@dimen/main_text_size"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_ll_line3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#00A600"
+            android:onClick="clickPriceList"
+
+            >
+
+            <TextView
+                android:id="@+id/main_tv_cube5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_price_list"
+                android:textSize="@dimen/main_text_size"
+                android:paddingLeft="40dp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

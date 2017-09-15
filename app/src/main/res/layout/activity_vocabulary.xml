@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8080"
+    android:orientation="vertical"
+    tools:context="com.perso.pierre.shanghaifakemarket.Vocabulary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="#FF4342">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="@string/title_activity_vocabulary"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/commandment_lv_vocabulary"
+        android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20dp"
+        android:scrollbars="none"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+
+</LinearLayout>

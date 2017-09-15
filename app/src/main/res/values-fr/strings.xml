@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">FakeMarket</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_gift_ideas">Gift ideas</string>
+    <string name="main_commandments">Commandements</string>
+    <string name="main_location">Information et emplacement</string>
+    <string name="main_basic_chinese">vocabulaire de négociation</string>
+    <string name="title_activity_price_list">PriceList</string>
+    <string name="title_activity_gift_ideas">GiftIdeas</string>
+    <string name="title_activity_convert_currency">ConvertCurrency</string>
+    <string name="title_activity_vocabulary">Vocabulary</string>
+    <string name="title_activity_locations">Locations</string>
+
+    <string name="main_price_list">Liste des prix</string>
+
+    <string name="main_convert_currency">Devises</string>
+    <string name="convert_currency_too_expensive">trop chère !</string>
+
+    <string name="location_activity_open_google_map">Cliquez sur la carte pour ouvrir Google map (Requiert un VPN)</string>
+
+
+    <string name="item_adapter_category_clothes">Vêtements</string>
+    <string name="item_adapter_category_electronics">Electronique</string>
+    <string name="item_adapter_category_others">Autres</string>
+
+
+
+    <string name="title_activity_commandments">Commandments</string>
+    <string name="commandments_1">Les vendeurs n’acceptent que le cash, certains accepteront les euros ou les dollars.</string>
+    <string name="commandments_2">N’acceptez jamais le premier prix qui vous est annoncé.</string>
+    <string name="commandments_3">Quoi que dise les vendeurs tous les objets sont des fakes.</string>
+    <string name="commandments_4">Les vendeurs sont des professionnels qui vont parfois jouer sur les sentiments, ne vous laissez pas avoir</string>
+    <string name="commandments_5">Avant d’acheter un vêtement, vérifier les coutures.</string>
+    <string name="commandments_6">Avant d’acheter un appareil électronique toujours le sortir de son emballage et vérifier qu’il fonctionne.</string>
+    <string name="commandments_7">Beaucoup de stands se ressemblent, si un vendeur refuse votre prix, passez au suivant en augmentant légèrement votre proposition.</string>
+    <string name="commandments_8">Tous les vendeurs parlent anglais, cependant, essayez de parler quelques mots de chinois et de ne pas montrer que vous êtes un touriste si vous voulez obtenir de meilleurs prix.</string>
+    <string name="commandments_9">Les vendeurs vont souvent vous annoncer leurs « derniers prix » ou « meilleurs prix ». Ce n’est bien sûr pas vrai et il est possible de continuer à négocier un peu.</string>
+    <string name="commandments_10">Restez courtois et appréciez votre ballade au fake market</string>
+
+
+    <string name="custom_dialog_rating_title">Pouvez-vous m\'aider ?</string>
+    <string name="custom_dialog_rating_yes">Noter</string>
+    <string name="custom_dialog_rating_no">Non !</string>
+    <string name="custom_dialog_rating_later">Plus tard</string>
+    <string name="custom_dialog_rating_description">Cette application est sans publicités et gratuite, c\'est mon projet de fin d\'année scolaire, j\'espére qu\'il vous est utile et qu\'il vous à fait gagner du temps ou de l\'argent ! Si vous l\'appréciez, ce serait sympa de le rendre plus visible en votant sur le Play Store ! </string>
+
+
+    <string name="voca_word1_hello">Bonjour</string>
+    <string name="voca_word2_how_much">Combien c\'est (le prix)</string>
+    <string name="voca_word3_expensive">chère</string>
+    <string name="voca_word4_too_expensive">trop chère</string>
+    <string name="voca_word5_good_quality">bonne qualité</string>
+    <string name="voca_word6_bad_quality">mauvaise qualité</string>
+    <string name="voca_word7_I_dont_have">Je n\'ai pas assez d\'argent</string>
+    <string name="voca_word8_I_dont_want">Je ne veux pas</string>
+    <string name="voca_word9_I_want_less">Je veux moins chère</string>
+    <string name="voca_word10_do_you_have_other">Avez vous d\'autres tailles ?</string>
+    <string name="voca_word11_bigger">Plus grand</string>
+    <string name="voca_word12_smaller">Plus petit</string>
+    <string name="voca_word13_thank_you">merci</string>
+    <string name="voca_word14_goodbye">Au revoir</string>
+
+    <string name="item_1">t-shirt (simple)</string>
+    <string name="item_2">t-shirt (bonne qualité)</string>
+    <string name="item_3">polo</string>
+    <string name="item_4">robe traditionnelle</string>
+    <string name="item_5">pull </string>
+    <string name="item_6">jeans</string>
+    <string name="item_7">pantalon de costume</string>
+    <string name="item_8">chaussures légère</string>
+    <string name="item_9">chaussures de sport </string>
+    <string name="item_10">chaussures habillées</string>
+    <string name="item_11">uggs </string>
+    <string name="item_12">crocs </string>
+    <string name="item_13">chaussettes </string>
+    <string name="item_14">sous-vêtements</string>
+    <string name="item_15">ceinture</string>
+    <string name="item_16">casquette</string>
+    <string name="item_17">maillot de sport</string>
+    <string name="item_18">écharpe</string>
+    <string name="item_19">sac</string>
+    <string name="item_20">sac à dos</string>
+    <string name="item_21">valise à roues</string>
+    <string name="item_22">portefeuille</string>
+    <string name="item_23">manteau</string>
+    <string name="item_24">cravate</string>
+    <string name="item_25">sac à main</string>
+
+    <string name="item_26">jumelles</string>
+    <string name="item_27">cerf-volant</string>
+    <string name="item_28">E cigarette </string>
+    <string name="item_29">cartes</string>
+    <string name="item_30">noeud chinois </string>
+    <string name="item_31">Shots</string>
+    <string name="item_32">set de baguettes </string>
+    <string name="item_33">set de thé </string>
+    <string name="item_34">posters </string>
+    <string name="item_35">éventail</string>
+    <string name="item_36">porte-clef </string>
+    <string name="item_37">cahier</string>
+    <string name="item_38">stylo</string>
+    <string name="item_39">montre (basique)</string>
+    <string name="item_40">montre (bonne qualité)</string>
+
+    <string name="item_41">Dvd </string>
+    <string name="item_42">logiciels </string>
+    <string name="item_43">jeux</string>
+    <string name="item_44">petit appareil télécommandé</string>
+    <string name="item_45">gros appareil télécommandé</string>
+    <string name="item_46">Chargeur de téléphone</string>
+    <string name="item_47">protection pour tablette </string>
+    <string name="item_48">protection pour téléphone</string>
+    <string name="item_49">casque audio</string>
+    <string name="item_50">enceinte</string>
+    <string name="item_51">lampe de poche </string>
+    <string name="item_52">laser</string>
+    <string name="item_53">briquet </string>
+
+
+    <string name="location_theme_electronic">electronique</string>
+    <string name="location_theme_clothes">vêtements</string>
+    <string name="location_theme_souvenirs">souvenirs</string>
+    <string name="location_theme_made_to_measure">sur mesure</string>
+    <string name="location_theme_tea">thé</string>
+
+
+    <string name="fake_1_description">Autrefois appelé le Frengshine Market, Han city est un fake market très prisé par les touristes. Soyez prêts à négocier car les vendeurs vont vous annoncer des prix indécents. Un distributeur est disponible à l’entrée.</string>
+    <string name="fake_2_description">A l’intérieur de la station de metro Science and Technology Museum station (ligne 2). AP Plaza est le plus gros fake market. Attention à ne pas se perdre dans les nombreuses allées.</string>
+    <string name="fake_3_description">Rempli de tailleurs et de couturiers, le célèbre Fabric Market de Shanghai est l’endroit parfait pout acheter des manteaux, manteaux ou encore pantalons taillés sur mesute.</string>
+    <string name="fake_4_description">Une rue remplie de petits magasin d’habits et de contrefaçon. La rue est parfois bondé, il est recommandé d’y aller en semaine ou le matin.</string>
+    <string name="fake_5_description">Autour du célèbre jardin Yuyuan Garden, vous trouverez de nombreux magasin qui vendent des souvenirs, et de faux vieux objets. Assez bondé les weekends et pendant la golden week, c’est un incontournable de Shanghai.</string>
+
+
+
+
+    <string name="emplacement_fake1">7 mins à pied de Nanjing road (W)</string>
+    <string name="emplacement_fake2">Metro shanghai science and technology museum (ligne2)</string>
+    <string name="emplacement_fake3">5 mins à pied de Nanpu Bridge</string>
+    <string name="emplacement_fake4">5 mins à pied de Tiantong road </string>
+    <string name="emplacement_fake5">2 mins à pied de Yu Garden</string>
+
+
+    <string name="horaires_fake1">Tous les jours, 9h-21h</string>
+    <string name="horaires_fake2">Tous les jours, 9h-18h</string>
+    <string name="horaires_fake3">Tous les jours, 10h–22h</string>
+    <string name="horaires_fake4">Tous les jours, 9h–17h30</string>
+    <string name="horaires_fake5">Tous les jours, 8h30–17h</string>
+
+    <string name="convert_currency_toast_no_internet">Pas de connexion internet, les taux ne sont mis à jour</string>
+    <string name="convert_currency_toast_succes">Taux mis à jour</string>
+
+
+</resources>

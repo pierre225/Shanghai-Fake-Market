@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_custom_item_item_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00A600"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_custom_item_item_categorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="CATEGORIE"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5">
+
+                <TextView
+                    android:id="@+id/custom_item_item_info_tv_name_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="name"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/custom_item_item_info_tv_price_min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/custom_item_item_info_tv_name_item"
+                    android:text="min"
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
+                    android:id="@+id/custom_item_item_info_tv_tiret"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/custom_item_item_info_tv_name_item"
+                    android:layout_toRightOf="@id/custom_item_item_info_tv_price_min"
+                    android:text=" - "
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
+                    android:id="@+id/custom_item_item_info_tv_price_max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/custom_item_item_info_tv_name_item"
+                    android:layout_toRightOf="@id/custom_item_item_info_tv_tiret"
+
+                    android:text="max"
+                    android:textColor="@android:color/black" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/custom_item_item_info_tv_name_item"
+                    android:layout_toRightOf="@id/custom_item_item_info_tv_price_max"
+
+                    android:text="  RMB"
+                    android:textColor="@android:color/black" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/custom_item_item_info_iv_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_cards" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
