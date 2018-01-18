@@ -38,7 +38,7 @@ public class Commandments extends Activity {
         ModelCommandment commandment10 = new ModelCommandment("X", this.getString(R.string.commandments_10));
 
 
-
+	//ajouter les commandements
         mArrayListOfCOmmandement.add(commandment1);
         mArrayListOfCOmmandement.add(commandment2);
         mArrayListOfCOmmandement.add(commandment3);
