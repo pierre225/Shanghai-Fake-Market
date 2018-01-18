@@ -24,7 +24,7 @@ public class Commandments extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_commandments);
 
-
+	//list of commandements
         mArrayListOfCOmmandement = new ArrayList<ModelCommandment>();
         ModelCommandment commandment1 = new ModelCommandment("I", this.getString(R.string.commandments_1));
         ModelCommandment commandment2 = new ModelCommandment("II", this.getString(R.string.commandments_2));
